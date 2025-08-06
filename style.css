@@ -17,6 +17,10 @@
   color-scheme: light dark;
 }
 
+.nascosto {
+  display: none !important;
+}
+
 body {
   margin: 0;
   font-family: var(--font-base);
