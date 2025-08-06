@@ -77,8 +77,8 @@ inputRicerca.addEventListener('keydown', (e) => {
     try {
       const response = await fetch("/api/get");
       const data = await response.json();
-     const dati = data.parntNode.removeChild(button);
-      encyclopedia.innerHTML = dati.html || "";
+     data.filter('button');
+      encyclopedia.innerHTML = data.html || "";
     } catch (err) {
       alert("❌ Errore durante il caricamento: " + err.message);
     }
