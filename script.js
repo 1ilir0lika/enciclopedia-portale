@@ -78,7 +78,6 @@ inputRicerca.addEventListener('keydown', (e) => {
       const response = await fetch("/api/get");
       const data = await response.json();
       encyclopedia.innerHTML = data.html || "";
-      alert("Caricamento andato a buon fine");
     } catch (err) {
       alert("❌ Errore durante il caricamento: " + err.message);
     }
