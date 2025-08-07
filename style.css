@@ -352,7 +352,7 @@ hr {
     --sfondo-vetro: rgba(255, 255, 255, 0.85);
     --sfocatura: blur(25px);
     --font-base: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    --bg-body: linear-gradient(180deg, #ffffff 0%, #f2f2f7 100%);
+   /* --bg-body: linear-gradient(180deg, #ffffff 0%, #f2f2f7 100%);*/
     --colore-box: #ffffff;
   }
 
