@@ -1,14 +1,3 @@
-try {
-      const response = await fetch("/api/get");
-      const data = await response.json();
-      encyclopedia.innerHTML = data.html || "";
-      encyclopedia.querySelectorAll('.control-btn, .add-desc-btn, .ok-btn, .description-input').forEach(el => {
-      el.classList.add('nascosto');
-    });
-    } catch (err) {
-      alert("❌ Errore durante il caricamento: " + err.message);
-    }
-
 document.addEventListener('DOMContentLoaded', () => {
   const tree = document.getElementById('encyclopedia');
   const inputRicerca = document.getElementById('search-input');
