@@ -24,7 +24,8 @@
 body {
   margin: 0;
   font-family: var(--font-base);
-  background: var(--bg-body);
+  /*background: var(--bg-body);*/
+  background-img: url("alessandro.png");
   color: var(--colore-testo);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
